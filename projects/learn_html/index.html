@@ -123,15 +123,25 @@
   <h2>form</h2>
   <ul>
     <li>#24 - Form Part 1 - Input Types And Label</li>
+    <li> #25 - Form Part 2 - Required, Placeholder, Value</li>
   </ul>
-  <form action="#">
-    <label for="username">username:</label>
-    <input id="username" type="text">
-    <label for="password">password:</label>
-    <input type="password">
-    <input type="submit">
+  <form action="#" required>
+    <div>
+      <label for="email">email:</label>
+      <input id="email" type="email" Required placeholder="type email" value="">
+    </div>
+    <div>
+      <label for="username">username:</label>
+      <input id="username" type="text" Required placeholder="type username" value="unique username">
+    </div>
+    <div>
+      <label for="password">password:</label>
+      <input type="password" Required>
+    </div>
+    <input type="submit" value="confirm and save">
   </form>
   <h2></h2>
+
   <h2 id="last"></h2>
 
 </body>
