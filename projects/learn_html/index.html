@@ -128,6 +128,7 @@
     <li>#27 - Form Part 4 - Hidden, Reset, Color, Range, Number</li>
     <li>#28 - Form Part 5 - ReadOnly, Disabled, Autofocus</li>
     <li>#29 - Form Part 6 - Radio And Checkbox</li>
+    <li>#30 - Form Part 7 - Select And textarea</li>
   </ul>
   <form action="#" name="form1" method="get">
     <div>
@@ -150,7 +151,16 @@
       <input type="radio" value="cairo" name="city" id="ca"><label for="ca">cairo</label>
       <input type="radio" value="aswan" name="city" id="as"><label for="as">aswan</label>
       <input type="radio" value="alex" name="city" id="al"><label for="al">alex</label>
-    </div>
+    </div><br>
+    <div>
+      <label for="book">choose a book</label>
+      <select name="book" id="book">
+        <optgroup label="books group1"></optgroup>
+        <option value="1">book1</option>
+        <option value="2">book2</option>
+        <option value="3">book3</option>
+      </select>
+    </div><br>
     <input type="submit" value="confirm and save">
   </form>
   <h2></h2>
