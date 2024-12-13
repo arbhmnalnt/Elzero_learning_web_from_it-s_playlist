@@ -130,8 +130,9 @@
     <li>#29 - Form Part 6 - Radio And Checkbox</li>
     <li>#30 - Form Part 7 - Select And textarea</li>
     <li>#31 - Form Part 8 - File, Search, URL, Time</li>
+    <li>#32 - Form Part 9 - Data List, Novalidate, Target</li>
   </ul>
-  <form action="#" name="form1" method="get">
+  <form action="#" name="form1" method="get" target="_blank">
     <div>
       <label for="email">email:</label>
       <input id="email" name="email" type="email" Required placeholder="type email" value="">
@@ -175,7 +176,18 @@
       <input type="date">
       <label >month</label>
       <input type="month">
-
+      <br><label>coubtry choose</label>
+      <input list="country" name="countryy">
+      <datalist id="country">
+        <option value="egypt">egypt</option>
+        <option value="سكر">سكر</option>
+        <option value="ششسكر">ششسكر</option>
+        <option value="منتىنتىس">منتىنتىس</option>
+        <option value="سكر">سكر</option>
+        <option value="ssegypt">ssegypt</option>
+        <option value="usa">usa</option>
+        <option value="uk">uk</option>
+      </datalist>
 
     </div><br>
     <input type="submit" value="confirm and save">
