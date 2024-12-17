@@ -1,3 +1,7 @@
-.test{
-  color: red;
+.backgound_image{
+  width: 70rem; height:15rem;
+  background-image: url("../imgs/droom.webp");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center right ;
 }
