@@ -1,7 +1,20 @@
+@font-face{
+  font-family: "cairo_play";
+  src:url(../fonts/CairoPlay-VariableFont_slnt\,wght.ttf)
+}
+
+.google_font_cairo_play{
+  font-family: "cairo_play", "arails";
+  font-size: 2rem;;
+}
 .backgound_image{
   width: 70rem; height:15rem;
   background-image: url("../imgs/droom.webp");
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: center right ;
+}
+
+h3:first-child{
+  font-family: monospace;
 }
